@@ -1,6 +1,5 @@
 // Created by vi2da - 9/5/16.
 
-
 // ------------------------------ includes ------------------------------
 #include <iostream>
 #include <functional>
