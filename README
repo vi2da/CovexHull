@@ -1,0 +1,37 @@
+david.oh
+
+304249386
+David Ohayon
+
+ex1:
+
+
+=============================
+=            File           =
+=============================
+ConvexHull.cpp
+Makefile
+Point.cpp
+Point.h
+PointSetBinaryOperations.cpp
+PointSet.cpp
+PointSet.h
+README
+
+=============================
+=      File description     =
+=============================
+ConvexHull.cpp -  A program to find convex hull of a set of points.
+Point.cpp - this represant a 2D Point (have a x and y).
+PointSetBinaryOperations.cpp - check validity of the implement of operators in PointSet.cpp.
+PointSet.cpp - this represant a set of Point (no duplicat Point).
+
+=============================
+=  Implementation details   =
+=============================
+ConvexHull - take data from user and add it to a PointSet, after that he sort this group by angle(accord the 
+			 min y if y not enough sort this by x).
+			 take only the Point that is not coolinear to other (and if we have a coolinear Point's we take 
+			 only the extremity) and put them into stack1, and after that run the algorithem on stack1 and 
+			 put the legal Point's into stack2. 
+			 sort stack2 accord min x (if x not enough sort this by y), and print stack2.
