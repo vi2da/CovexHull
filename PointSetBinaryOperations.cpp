@@ -1,7 +1,4 @@
-//
-// Created by david.oh on 9/11/16.
-//
-
+// Created by vi2da - 9/5/16.
 
 // ------------------------------ includes ------------------------------
 #include <iostream>
